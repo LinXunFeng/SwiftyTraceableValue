@@ -1,0 +1,19 @@
+use_frameworks!
+
+target 'SwiftyTraceableValue_Example' do
+  
+  pod 'SwiftyTraceableValue', :path => '../'
+  
+  pod 'LXFProtocolTool', '~> 3.1.1'
+  pod 'Moya/RxSwift'
+  pod 'RxDataSources'
+  pod 'ReactorKit'
+  pod 'Reusable'
+  pod 'Then'
+  pod 'Kingfisher', '~> 5.15.0'
+
+  target 'SwiftyTraceableValue_Tests' do
+    inherit! :search_paths
+
+  end
+end
