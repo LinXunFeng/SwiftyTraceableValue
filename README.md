@@ -38,8 +38,8 @@ pod 'SwiftyTraceableValue'
 // Reactor
 
 struct State {
-	@SwiftyTraceableValue var sections : [LXFSection] = []
-	...
+    @SwiftyTraceableValue var sections : [LXFSection] = []
+    ...
 }
 ```
 
@@ -51,8 +51,8 @@ struct State {
 // View
 
 reactor.state.mapDistinctUntilTraceableValueChanged { $0.$sections }
-	.bind(to: tableView.rx.items(dataSource: dataSource))
-	.disposed(by: disposeBag)
+    .bind(to: tableView.rx.items(dataSource: dataSource))
+    .disposed(by: disposeBag)
 ```
 
 
