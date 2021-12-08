@@ -7,7 +7,7 @@
 
 @propertyWrapper
 public struct SwiftyTraceableValue<T> {
-    public  var tracker: Int = 0
+    public var tracker: Int = 0
     public var value: T
     
     public var projectedValue: SwiftyTraceableValue {
