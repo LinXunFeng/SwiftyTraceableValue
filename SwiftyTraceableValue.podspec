@@ -23,11 +23,11 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
   
   s.subspec "Base" do |t|
-      t.source_files  = 'SwiftyTraceableValue/Classes/**/*'
+      t.source_files  = 'SwiftyTraceableValue/Classes/Base/**/*'
   end
   
   s.subspec 'Rx' do |t|
-      t.source_files = 'SwiftyTraceableValue/Classes/Rx/**/*.{swift}'
+      t.source_files = 'SwiftyTraceableValue/Classes/Rx/**/*'
       t.dependency 'RxSwift', '>= 6'
       t.dependency "SwiftyTraceableValue/Base"
   end
