@@ -7,6 +7,14 @@
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyTraceableValue.svg?style=flat)](https://cocoapods.org/pods/SwiftyTraceableValue)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=LinXunFeng.SwiftyTraceableValue)
 
+
+
+## Article
+
+掘金：[ReactorKit + RxDataSources 列表多次刷新的解决方案](https://juejin.cn/post/7039367289170296863)
+
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
