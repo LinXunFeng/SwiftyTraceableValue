@@ -67,7 +67,7 @@ reactor.state.mapDistinctUntilTraceableValueChanged { $0.$sections }
 
 ## License
 
-SwiftyFitsize is available under the MIT license. See the LICENSE file for more info.
+SwiftyTraceableValue is available under the MIT license. See the LICENSE file for more info.
 
 
 
